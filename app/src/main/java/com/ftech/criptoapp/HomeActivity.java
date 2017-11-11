@@ -277,6 +277,8 @@ public class HomeActivity extends AppCompatActivity implements LoaderCallbacks<L
                                 cardViewIntent.putExtra("CURRENCY_CODE", BTC_ETH);
                                 cardViewIntent.putExtra("COLUMN_NAME", 0);
                                 startActivity(cardViewIntent);
+                                SharedPreferences dataPref  = getSharedPreferences("NEW_CARD_DATA", MODE_PRIVATE);
+                                dataPref.edit().remove("isEditedItem").apply();
                                 SharedPreferences newCardFromButtonPref0  = getSharedPreferences("newCardFromButtonPref", MODE_PRIVATE);
                                 newCardFromButtonPref0.edit().clear().apply();
                                 break;
@@ -289,7 +291,7 @@ public class HomeActivity extends AppCompatActivity implements LoaderCallbacks<L
                                 Intent allCards = new Intent(HomeActivity.this, CreatedCards.class);
                                 startActivity(allCards);
                             case R.id.exit:
-                                //finish();
+                                finish();
                                 break;
                             default: ;
                         }
@@ -310,6 +312,8 @@ public class HomeActivity extends AppCompatActivity implements LoaderCallbacks<L
                 cardViewIntent.putExtra("CURRENCY_CODE", BTC_ETH);
                 cardViewIntent.putExtra("COLUMN_NAME", 0);
                 startActivity(cardViewIntent);
+                SharedPreferences dataPref  = getSharedPreferences("NEW_CARD_DATA", MODE_PRIVATE);
+                dataPref.edit().remove("isEditedItem").apply();
                 SharedPreferences newCardFromButtonPref  = getSharedPreferences("newCardFromButtonPref", MODE_PRIVATE);
                 newCardFromButtonPref.edit().clear().apply();
             }

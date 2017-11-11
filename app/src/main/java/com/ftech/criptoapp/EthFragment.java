@@ -133,6 +133,8 @@ public class EthFragment extends Fragment implements LoaderManager.LoaderCallbac
                 SharedPreferences newCardFromButtonPref
                         = getActivity().getSharedPreferences("newCardFromButtonPref", getActivity().MODE_PRIVATE);
                 newCardFromButtonPref.edit().clear().apply();
+                SharedPreferences dataPref  = getActivity().getSharedPreferences("NEW_CARD_DATA", getActivity().MODE_PRIVATE);
+                dataPref.edit().remove("isEditedItem").apply();
             }
         });
 
