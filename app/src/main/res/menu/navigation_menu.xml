@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:iconTint="@color/colorFaded"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/new_card"
+            android:title="New Card"
+            android:iconTint="@color/colorFaded"
+            android:icon="@drawable/ic_fiber_new_black_24dp"/>
+
+        <item
+            android:id="@+id/view_all"
+            android:title="Your Cards"
+            android:iconTint="@color/colorFaded"
+            android:icon="@drawable/ic_all_inclusive_black_24dp"/>
+        <item
+            android:id="@+id/exit"
+            android:title="Exit"
+            android:iconTint="@color/colorFaded"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+    </group>
+
+</menu>

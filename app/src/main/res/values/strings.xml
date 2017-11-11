@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CryptoCalc</string>
+    <string name="currency_value">29304.99</string>
+    <string name="date_time">05-11-2017</string>
+    <string name="currency_label">Currency</string>
+    <string name="convert_box_label">Do you want to convert?</string>
+    <string name="currency_edit_hint">Enter amount here</string>
+    <string name="coin_label">Coin</string>
+    <string name="currency_symbol">NGN</string>
+    <string name="currency_logo">₦</string>
+    <string name="conversion_radio_eth_btn">ETH</string>
+    <string name="conversion_radio_btc_btn">BTC</string>
+    <string name="conversion_btc_logo">BTC</string>
+    <string name="default_conversion_result_value">0</string>
+    <string name="convert_btn_text">Convert</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="code_eth_text">ETH</string>
+    <string name="code_btc_text">BTC</string>
+    <string name="no_data">No data available!</string>
+    <string name="empty_view_title_text">No Connection</string>
+    <string name="empty_view_subtitle_text">Please on your data connection...</string>
+    <string name="network_absent">no network</string>
+    <string name="network_avalable">network</string>
+    <string-array name="crypto_array">
+        <item>ETH</item>
+        <item>BTC</item>
+    </string-array>
+    <string-array name="currency_symbols">
+        <item></item>
+    </string-array>
+
+
+    <string name="base_currency">Base Currency</string>
+    <string name="country_currency">Country Currency</string>
+    <string name="create_card">Create Card</string>
+    <string name="view_card">View Cards</string>
+    <string name="newCard_title">Add New Card</string>
+    <string name="all_currencies">All Currencies</string>
+
+
+</resources>
